@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: predictive-maintenance-demo
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./:/app   # live edits: change code on the host, Streamlit reloads
+    environment:
+      - PYTHONPATH=/app
