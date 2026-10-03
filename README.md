@@ -1,4 +1,4 @@
-# Predictive Maintenance Demo 🔧
+# Predictive Maintenance Demos 🔧
 
 A small, end-to-end data science project for students:
 
